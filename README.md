@@ -12,9 +12,9 @@ A total of 3 data sets were created from 3 different sources.
 | 2 | reviewer            | Username or Name of Reviewer        | String        |
 | 3 | reviewerLocation    | Location of reviewer       |    String     |
 | 4 | datePublished       | Date that the review was published | String Format: month/day/year       |
-| 5 | starRatingOutOfFive |    $1        |    $1        |
-| 6 | reviewTitle         |    $1        |    $1        |
-| 7 | reviewComment       |    $1        |    $1        |
-| 8 | product             |    $1        |    $1        |
-| 9 | source              |    $1        |    $1        |
+| 5 | starRatingOutOfFive | Star rating associated with review(5=best, 1 =worst)        |    Integer      |
+| 6 | reviewTitle         | Title of review        |   String      |
+| 7 | reviewComment       | Body of review       |    String       |
+| 8 | product             | Product associated with review       |   string        |
+| 9 | source              | web source of review      |    string      |
 
