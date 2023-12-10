@@ -8,10 +8,10 @@ A total of 3 data sets were created from 3 different sources.
   The file format of the data set is a tab delimeted csv file with a size of .
 |   | Feature             | Description  | Data Type  |
 | - |:-------------------:| ------------:|------------:|
-| 1 | reviewId            | Data set Unique Identifier        |$1600        |
-| 2 | reviewer            |   $12        |   $12        |
-| 3 | reviewerLocation    |    $1        |    $1        |
-| 4 | datePublished       |    $1        |    $1        |
+| 1 | reviewId            | Data set Unique Identifier        | Integer       |
+| 2 | reviewer            | Username or Name of Reviewer        | String        |
+| 3 | reviewerLocation    | Location of reviewer       |    String     |
+| 4 | datePublished       | Date that the review was published | String Format: month/day/year       |
 | 5 | starRatingOutOfFive |    $1        |    $1        |
 | 6 | reviewTitle         |    $1        |    $1        |
 | 7 | reviewComment       |    $1        |    $1        |
