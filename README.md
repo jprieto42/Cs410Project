@@ -6,8 +6,15 @@ A total of 3 data sets were created from 3 different sources.
 #### Concord Health Supply Data Set
   This data set was created from the concord health supply website : https://www.concordhealthsupply.com/
   The file format of the data set is a tab delimeted csv file with a size of .
-|   | Feature       | Description  |
-| - |:-------------:| ------------:|
-| 1 | right-aligned | $1600        |
-| 2 | centered      |   $12        |
-| 3 | are neat      |    $1        |
+|   | Feature             | Description  | Data Type  |
+| - |:-------------------:| ------------:|------------:|
+| 1 | reviewId            | Data set Unique Identifier        |$1600        |
+| 2 | reviewer            |   $12        |   $12        |
+| 3 | reviewerLocation    |    $1        |    $1        |
+| 4 | datePublished       |    $1        |    $1        |
+| 5 | starRatingOutOfFive |    $1        |    $1        |
+| 6 | reviewTitle         |    $1        |    $1        |
+| 7 | reviewComment       |    $1        |    $1        |
+| 8 | product             |    $1        |    $1        |
+| 9 | source              |    $1        |    $1        |
+
