@@ -1,2 +1,2 @@
-# Cs410Project
-The purpose of the project is data set creation
+# Cs410Project-Medical Device Reviews Data set creation
+The purpose of the project is to create a dataset comprised of reviews of medical device sellers and their products. To do this custom python code was written to scrape the data off of websites and clean the data as well. The intended use of the data set created was for sentiment analysis, however it can be used for other Natural Language Purposes as well. 
