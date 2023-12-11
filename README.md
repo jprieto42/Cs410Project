@@ -5,7 +5,7 @@
 A total of 3 data sets were created from 3 different sources.
 ### Concord Health Supply Data Set
   This data set consists of reviews about specific medical products from the concord health supply website : https://www.concordhealthsupply.com/ .
-  The file format of the data set is a tab delimeted csv file with a size 730KB of with 2122 unique rows. The date has a standard format but I was unable to standardize the location strings because there aren't very powerful location parsers available. The rest of the strings were striped of newlines and spaces but contain raw text extracted from the websites. This data set had to be encoded in utf-8 becuase the review data contained some special characters.
+  The file format of the data set is a tab delimeted csv file with a size of 730KB with 2122 unique rows. The date has a standard format but I was unable to standardize the location strings because there aren't very powerful location parsers available. The rest of the strings were striped of newlines and spaces but contain raw text extracted from the websites. This data set had to be encoded in utf-8 becuase the review data contained some special characters.
 |   | Feature             | Description  | Data Type  |
 | - |:-------------------:| ------------:|------------:|
 | 1 | reviewId            | Data set Unique Identifier        | Integer       |
@@ -19,7 +19,7 @@ A total of 3 data sets were created from 3 different sources.
 | 9 | source              | web source of review      |    string      |
 ### American AED Data Set
   This data set consists of reviews about the service and products from the american aed website : https://americanaed.com/ .
-  The file format of the data set is a tab delimeted csv file with a size 194KB of with 1007 unique rows. The date has a standard format. The rest of the strings were striped of newlines and spaces but contain raw text extracted from the websites. In the reviewComment, this data set contains emoji data that was converted into text in some of the entries, so be aware of that when designing your sentiment analysis or NLP code.
+  The file format of the data set is a tab delimeted csv file with a size of 194KB with 1007 unique rows. The date has a standard format. The rest of the strings were striped of newlines and spaces but contain raw text extracted from the websites. In the reviewComment, this data set contains emoji data that was converted into text in some of the entries, so be aware of that when designing your sentiment analysis or NLP code.
 |   | Feature             | Description  | Data Type  |
 | - |:-------------------:| ------------:|------------:|
 | 1 | reviewId            | Data set Unique Identifier        | Integer       |
@@ -31,7 +31,7 @@ A total of 3 data sets were created from 3 different sources.
 | 7 | source              | web source of review      |    string      |
 ### TensPro Data Set
   This data set consists of reviews about specific medical products from the tenspro website : https://www.tenspros.com/ .
-  The file format of the data set is a tab delimeted csv file with a size 1252KB of with 4119 unique rows. The date has a standard format but I was unable to standardize the location strings because there aren't very powerful location parsers available. The rest of the strings were striped of newlines and spaces but contain raw text extracted from the websites. In the reviewComment, this data set contains emoji data that was converted into text in some of the entries, so be aware of that when designing your sentiment analysis or NLP code.
+  The file format of the data set is a tab delimeted csv file with a size of 1252KB with 4119 unique rows. The date has a standard format but I was unable to standardize the location strings because there aren't very powerful location parsers available. The rest of the strings were striped of newlines and spaces but contain raw text extracted from the websites. In the reviewComment, this data set contains emoji data that was converted into text in some of the entries, so be aware of that when designing your sentiment analysis or NLP code.
 |   | Feature             | Description  | Data Type  |
 | - |:-------------------:| ------------:|------------:|
 | 1 | reviewId            | Data set Unique Identifier        | Integer       |
