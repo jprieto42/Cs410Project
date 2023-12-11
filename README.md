@@ -43,3 +43,6 @@ A total of 3 data sets were created from 3 different sources.
 | 7 | reviewComment       | Body of review       |    String       |
 | 8 | product             | Product associated with review       |   string        |
 | 9 | source              | web source of review      |    string      |
+
+## Video Tutorial
+Click the following for a short video tutorial on how to run the scripts : https://youtu.be/jQFU-cfVgng
